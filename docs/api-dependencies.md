@@ -36,7 +36,7 @@ module.exports = async function attachTargetProfilesToOrganization({
 
 Déclarer le composant et ses dépendances dans le fichier [répertoire](../../api/lib/domain/usecases/index.js).
 
-Utiliser l'[injection automatique](../../api/lib/infrastructure/utils/dependency-injection.js) des dépendances en
+Utiliser l'[injection automatique](../api/src/shared/infrastructure/utils/dependency-injection.js) des dépendances en
 utilisant les paramètres objets JS.
 
 #### Test unitaire
